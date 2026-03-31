@@ -181,12 +181,58 @@
 
 //captlized
 
-let str = 'how are you radhe'
+// let str = 'how are you radhe'
 
-let result = str.split(' ').map((elem ) => {
-   return  elem.charAt(0).toUpperCase() + elem.slice(1)
-})
+// let result = str.split(' ').map((elem ) => {
+//    return  elem.charAt(0).toUpperCase() + elem.slice(1)
+// })
 
-let finalString = result.join(" ");
+// let finalString = result.join(" ");
 
-console.log(finalString);
+// console.log(finalString);
+
+
+// 7 find the maximam of three
+
+
+// let num = [10 , 23, 56]
+
+// // let result = map((number , index) => {
+// //    return if(n)
+// // })
+
+// // var max ;
+
+// for(let i = 0; i<=num; i++){
+//    if(i>num){
+//       max = i
+//    }
+// }
+
+
+// const maxiNumber = (a,b,c) => {
+
+   
+
+// }
+
+// maxiNumber(5,6,7)
+
+
+
+
+// function maxiNumber(a , b, c){
+//    let max;
+//    if(a > b && a> c){
+//       max = a;
+//    }else if( b>a && b>c ){
+//       max = b
+//    }else {
+//       max = c 
+//    }
+//    return max
+// }
+
+// const result = maxiNumber(5,6,7)
+// console.log(result);
+
