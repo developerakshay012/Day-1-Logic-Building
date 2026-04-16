@@ -340,3 +340,16 @@
 
 // const result = leapYear(1900);
 // console.log(result);
+
+
+// let star = 5;
+
+// for(let i = 1; i<=star; i++){
+//    let row = ""
+// // 
+//    for(let j = 1; j<=i; j++){
+//       row+="* "
+     
+//    }
+//    console.log(row);
+//     JNMH
