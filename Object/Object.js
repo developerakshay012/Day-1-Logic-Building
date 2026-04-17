@@ -237,18 +237,72 @@
 
 //write a funtion that returns an array of names of  users who have the role of admin 
 
-const obj = [
-    {name:"Akshay",role:"admin"},
-    {name:"mukesh",role:"student"},
-    {name:"anuj",role:"teacher"},
-    {name:"sonu",role:"instructor"}
-]
+// const obj = [
+//     {name:"Akshay",role:"admin"},
+//     {name:"mukesh",role:"student"},
+//     {name:"anuj",role:"teacher"},
+//     {name:"sonu",role:"instructor"}
+// ]
 
-const result = obj.filter((item) =>{
-    // if(item.role === "admin"){
-    //     return `this inndex is admin ${item.role}`
-    // }/
-    return item.role === 'admin'
-})
+// function filterdArray(reslut){
 
-console.log(result);
+// const result = reslut.filter((item) =>{
+//     return item.role === 'admin'
+// })
+// const newFilterdResult = result.map((item) =>{
+//      return item.name
+// })
+
+//  return newFilterdResult
+
+// }
+
+// console.log(filterdArray(obj));
+
+//search the products from the given in the parameters
+// const  products = [
+//     {id:1 , name:"sumsung galaxy"},
+//     {id:2 , name:"iphonne"},
+//     {id:3 , name:"oppo 78"},
+//     {id:4 , name:"vivo"}
+// ]
+
+// function serchFunction(products , search){
+
+//     let productsarr = products.filter(item => {
+//         return item.name.toLowerCase().includes(search.toLowerCase());
+//     })
+
+//     console.log(productsarr);
+
+// }
+
+// serchFunction(products , "sum")
+
+// const comments = [
+//     {commentId:1 , text:"sumsung galaxy"},
+//     {commentId:2 , text:"iphonne"},
+//     {commentId:3 , text:"oppo 78"},
+//     {commentId:4 ,  text:"vivo"}
+// ]
+
+
+
+
+// function commentCreate(comments){
+
+//     let groupedComments = {}
+
+//     comments.forEach(item => {
+//         if(groupedComments.hasOwnProperty(item.commentId)){
+//             groupedComments[item.commentId].push[item.text]
+//         }else{
+//             groupedComments[item.commentId] = [item.text]
+//         }
+//     });
+//     return groupedComments
+// }
+
+// const result = commentCreate(comments);
+// console.log(result); 
+
